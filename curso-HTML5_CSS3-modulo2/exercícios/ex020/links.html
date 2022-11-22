@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: rgb(71, 2, 2);
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a::after {
+            content: ' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li>Meu <a href="https://www.facebook.com/profile.php?id=100003199795234" target="_blank">Facebook</a></li>
+        <li>Meu <a href="https://www.instagram.com/lucaslucao97/" target="_blank">Instagram</a></li>
+        <li>Meu <a href="https://www.linkedin.com/in/lucas-b-868b06205/" target="_blank">Linkedln</a></li>
+    </ul>
+</body>
+</html>
